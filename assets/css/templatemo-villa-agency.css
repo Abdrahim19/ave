@@ -1,0 +1,238 @@
+/*
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+*/
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. font & reset css
+02. reset
+03. global styles
+04. header
+05. banner
+06. features
+07. testimonials
+08. contact
+09. footer
+
+--------------------------------------------- */
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, nav, section, article, aside, footer, hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+Global Styles
+--------------------------------------------- 
+*/
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* colors */
+  --primery-color:#5CD65C;
+  --main-borderRadius:1.25rem;
+
+}
+
+.background_shadow {
+  background: #000;
+  opacity: 56%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.app_container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.box {
+  border-radius:var(--main-borderRadius) ;
+  background: #FFF;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  height: 85%;
+  display: grid;
+  place-items: center;
+}
+@media (min-width: 749px) and (max-width: 1024px) {
+  .box {
+    width: 80%;
+  }
+  .box .social_media_box {
+    width: 20%;
+  }
+  /* CSS for large screens */
+}
+@media (min-width:768px) {
+  .box {
+    width: 60%;
+  }
+}
+.box .box_titel {
+  color: #000;
+  text-align: center;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 1.81rem;
+}
+.box .box_discrption {
+  color: #000;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-block: 2rem;
+  max-width: 49ch;
+  margin-inline: auto;
+}
+
+.box .social_media_box {
+  border-radius:var(--main-borderRadius) ;
+  background: #7E7E7E;
+  height: 4.0625rem;
+  width: 55%;
+  gap: .88rem;
+  margin-inline: auto;
+  margin-bottom: 2.12rem;
+  padding: .5rem;
+}
+.box .social_media_icon {
+  width: 1.875rem;
+height: 1.875rem;
+}
+.box .social_media_box > p {
+  color: #FFF;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.box .social_media_box.email {
+  background-color: var(--primery-color);
+  margin-bottom: 5rem;
+}
+.box_note {
+  color: #000;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  text-align: center;
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  /* CSS for small screens */
+}
+
+/* Medium screens */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* CSS for medium screens */
+}
+
+/* Large screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS for large screens */
+}
+
+/* Extra-large screens */
+@media (min-width: 1025px) {
+  /* CSS for extra-large screens */
+}
