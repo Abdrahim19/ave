@@ -12,11 +12,29 @@
 .register_form{
     padding: 2rem 1rem;
 } 
+.bolgs_section {
+    margin-top: 30rem;
+}
+.main-box {
+    margin-bottom: 2rem;
+}
+.circals_switchers {
+    margin-top: -16rem;
+}
+.first_blog-post {
+    padding-right: 1.5rem;
+}
 
 }
 
 @media (min-width:992px) {
     .testimonial_card_container .testimonial_card {
         width: 35.625rem;
+    }
+    .gallery_section  .right-content {
+        height: 30rem;
+    }
+    .circals_switchers {
+        margin-top: 3rem;
     }
 }

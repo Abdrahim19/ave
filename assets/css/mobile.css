@@ -5,10 +5,13 @@
         width: 100%;
         background-position: right bottom;
         background-image: url('../images/heroimg.svg');
-        height: 100%;
     }
     .Register_section .time.Day {
         margin-right: 3.5rem;
+    }
+    .resposive-2-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
