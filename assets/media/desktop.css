@@ -30,6 +30,9 @@
 .Features_section .right-content {
     flex: 1;
 }
+.sction_titel {
+    margin-bottom: 2rem !important;
+}
 
 }
 
